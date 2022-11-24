@@ -1,0 +1,135 @@
+body {
+  justify-content: center;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+}
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+}
+nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: black;
+  line-height: 45px;
+}
+.menu {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  background: red;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.eslogan h1 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.intro {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+dt {
+  font-size: 200%;
+  padding: 5px;
+  padding-top: 20px;
+  margin: 10px;
+}
+dd {
+  padding: 5px;
+  padding-bottom: 30px;
+}
+.negrita {
+  font-size: 45px;
+}
+p {
+  padding: 10px;
+}
+p img {
+  margin-right: 15px;
+  float: left;
+  padding: 20px;
+}
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.redondo {
+  border-radius: 50%;
+  max-width: 100%;
+  width: 500px;
+  height: 400px;
+}
+.disco {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 20px;
+  color: red;
+  padding-top: 30px;
+  padding: 10px;
+}
+.hipervinculos {
+  color: red;
+  background-size: 100% 1px;
+}
+.foto_john img {
+  height: 400px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+form {
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+}
+
+input {
+	padding-bottom: 10px;
+	padding: 10px;
+}
+ 
+button {
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+footer {
+  background-color:black;
+}
+
